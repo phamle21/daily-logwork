@@ -1,0 +1,8 @@
+{
+  "skills": {
+    "tailwindcss-development": ".agent/skills/tailwindcss-development",
+    "livewire-development": ".agent/skills/livewire-development",
+    "laravel-best-practices": ".agent/skills/laravel-best-practices",
+    "filament-development": ".kilo/skills/filament-development"
+  }
+}
