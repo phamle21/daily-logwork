@@ -1,0 +1,4 @@
+/**
+ * Bootstrap Laravel
+ */
+import './bootstrap';

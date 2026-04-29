@@ -1,0 +1,46 @@
+name: daily-logwork
+
+stack:
+  - laravel
+  - livewire
+  - tailwindcss
+  - mysql
+  - redis
+  - docker
+
+modules:
+  - auth
+  - daily-report
+  - logwork-history
+  - self-evaluation
+
+database:
+  driver: mysql
+  version: 8.0
+  name: daily_logwork
+  user: laravel
+  password: secret
+
+cache:
+  driver: redis
+  host: redis
+  port: 6379
+
+services:
+  nginx_port: 8082
+  mysql_port: 3307
+  redis_port: 6379
+
+projects:
+  - JRR
+  - Primas
+  - Project A
+  - Project B
+  - Project C
+  - Project D
+  - Project E
+  - Project F
+  - Project G
+  - Project H
+
+logo_path: /logos/{slug}.jpg
